@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Калькулятор стоимости автомобиля</h1>
+    <div class="panel">
+        <div class="panel-heading">
+            <h3>Калькулятор стоимости авто</h3>
+        </div>
+        <panel-body>
+            <form action="">
+                <label for="autoname">Марка автомобиля
+                    <select name="auto" id="autoname">
+                        <option value="Acura">Acura</option>
+                        <option value="Alfa">Alfa Romeo</option>
+                        <option value="Aston">Aston Martin</option>
+                        <option value="Audi">Audi</option>
+                        <option value="Bentley">Bentley</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Brilliance">Brilliance</option>
+                    </select>
+                    <label for="model">Модель
+                        <select name="model" id="automodel">
+                            <option class="1" value="0">ILX</option>
+                            <option class="1" value="1">MDX</option>
+                            <option class="2" value="0">147</option>
+                            <option class="2" value="1">156</option>
+                            <option class="3" value="0">DB11</option>
+                            <option class="3" value="1">DBX</option>
+                            <option class="4" value="0">A1</option>
+                            <option class="4" value="1">A2</option>
+                            <option class="5" value="0">Arnage</option>
+                            <option class="5" value="1">Bentayga</option>
+                            <option class="6" value="0">1 Series</option>
+                            <option class="6" value="1">2 Series</option>
+                            <option class="7" value="0">H530</option>
+                            <option class="7" value="1">H230</option>
+                        </select>
+                    <h2> Тип топлива</h2>
+                        <label>
+                            <input type="radio" name="fuel" value="petrol" required checked> Бензин
+                    </label>
+                    <label>
+                        <input type="radio" name="fuel" value="dizel" required> Дизель
+                </label>
+                <label>
+                    <input type="radio" name="fuel" value="electro" required> Электро
+            </label>
+            <h2> Возраст автомобиля</h2>
+            <label>
+                <input type="radio" name="year" value="three" checked > Меньше 3 лет
+        </label>
+        <label>
+            <input type="radio" name="year" value="five" > От 3 до 5 лет
+    </label>
+    <label>
+        <input type="radio" name="year" value="seven"> От 5 до 7 лет
+</label>
+<label>
+    <input type="radio" name="year" value="old"> Больше 7 лет
+</label>
+<div>
+<button>Рассчитать</button>
+          </div> 
+         <div class="result"></div>     
+            </form>
+        </panel-body>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
